@@ -19,17 +19,17 @@ class Team
 end
 
 # インスタンスの生成と、変数への代入
-Team1 = Team.new("Giants",67,45,8)
-Team2 = Team.new("Tigers",60,53,7)
-Team3 = Team.new("Dragons",60,55,5)
-Team4 = Team.new("BayStars",56,58,6)
-Team5 = Team.new("Carp",52,56,12)
-Team6 = Team.new("Swallows",41,69,10)
+giants = Team.new("Giants",67,45,8)
+tigers = Team.new("Tigers",60,53,7)
+dragons = Team.new("Dragons",60,55,5)
+baystars = Team.new("BayStars",56,58,6)
+carp = Team.new("Carp",52,56,12)
+swallows = Team.new("Swallows",41,69,10)
 
 # インスタンスの使用
-Team1.show_team_result
-Team2.show_team_result
-Team3.show_team_result
-Team4.show_team_result
-Team5.show_team_result
-Team6.show_team_result
+giants.show_team_result
+tigers.show_team_result
+dragons.show_team_result
+baystars.show_team_result
+carp.show_team_result
+swallows.show_team_result
